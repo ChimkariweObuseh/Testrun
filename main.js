@@ -81,7 +81,16 @@ form.addEventListener("submit", function convertImage(event) {
 
 function convert(img) {
 	// originalImageSize
-	copyButton.innerText = "Copy code" // Reset text if another image is uploaded
+	copyButton1.innerText = "Copy code"
+	copyButton2.innerText = "Copy code"
+	copyButton3.innerText = "Copy code"
+	copyButton4.innerText = "Copy code"
+	copyButton5.innerText = "Copy code"
+	copyButton6.innerText = "Copy code"
+	copyButton7.innerText = "Copy code"
+	copyButton8.innerText = "Copy code"
+	copyButton9.innerText = "Copy code"
+	copyButton10.innerText = "Copy code"// Reset text if another image is uploaded
 	const arcadeColors = [
 		"#00000000", // Transparent
 		"#ffffff",
@@ -160,7 +169,7 @@ function convert(img) {
 		}
 		img.width = imageWidth
 		img.height = imageHeight
-		copyButton.innerText += ` (${img.width} x ${img.height})`
+		copyButton1.innerText += ` (${img.width} x ${img.height})`
 	}
 
 	setSpriteDimensions(mode) // Mode is set when radio buttons are clicked. Default is full-width.
